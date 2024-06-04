@@ -8,7 +8,7 @@ body {
     
     display: flex;
     justify-content: center;
-    align-items:
+    align-items:center
    
 }
 
@@ -35,4 +35,49 @@ body {
     border: 0.2em solid rgb(188, 69, 168);
     margin-left: 10em;
 
+}
+
+
+.bottonpower {
+    height: 3em;
+    width: 7em;
+    border-radius: 15%;
+  
+    color: rgb(151, 45, 112);
+    
+}
+
+
+.volume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.button {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 25%;
+    background-color: rgb(71, 34, 129);
+    color: rgb(43, 71, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#channels{
+
+
+}
+
+.channels.hidden{
+    visibility: hidden;
 }
