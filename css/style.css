@@ -12,12 +12,27 @@ body {
    
 }
 
+#container {
+    height: 100vh;
+    width: 100vw;
+    margin: 10em;
+    padding: 0;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #tv {
     height: 25em;
     width: 50em;
     border-radius: 0.4em;
     border: 0.5em solid rgb(42, 14, 60);
     margin: 4em
+   
+    
 
 }
 
@@ -32,21 +47,31 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4em;
-    background-color: rgb(89, 6, 6);
+    background-color: rgb(206, 120, 120);
     border: 0.2em solid rgb(188, 69, 168);
     margin-left: 10em;
 
 }
 
 
-.bottonpower {
+.buttonpower {
     height: 3em;
     width: 7em;
     border-radius: 15%;
-  
+    margin-bottom: 5em;
+ 
     color: rgb(239, 213, 230);
+    background-color: darkred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    }
     
-}
+    
+
 
 
 
@@ -75,12 +100,12 @@ body {
     align-items: center;
     width: 5em;
     margin: 0.5em 0;
-
-   color: azure solid black;
+    color: rgb(209, 225, 240);
+}
     
 
 
-}
+
 .oculto{
     visibility: hidden;
 }
