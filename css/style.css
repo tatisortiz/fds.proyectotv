@@ -1,45 +1,49 @@
 body {
-   
     height: 100vh;
     width: 100vw;
-    margin: 10em;
     padding: 0;
     background: black;
-    
     display: flex;
     justify-content: center;
-    align-items:center
-   
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+
+
+
+
+
 
 #container {
     height: 100vh;
     width: 100vw;
-    margin: 10em;
     padding: 0;
-   
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+ 
 }
+
+
+
+
 
 #tv {
     height: 25em;
     width: 50em;
     border-radius: 0.4em;
     border: 0.5em solid rgb(42, 14, 60);
-    margin: 4em
-   
-    
-
+    margin: 4em;
 }
 
 .stv {
-    background-color:aqua;
+    background-color: aqua;
 }
-#control{
+
+#control {
+
     height: 25em;
     width: 10em;
     display: flex;
@@ -47,30 +51,29 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4em;
-    background-color: rgb(206, 120, 120);
+    background-color: rgb(36, 36, 35);
     border: 0.2em solid rgb(188, 69, 168);
     margin-left: 10em;
-
 }
 
+.powerbuttonpower {
+    height: 2.5em;
 
-.buttonpower {
-    height: 3em;
-    width: 7em;
-    border-radius: 15%;
-    margin-bottom: 5em;
- 
-    color: rgb(239, 213, 230);
-    background-color: darkred;
-    color: white;
+
+    width: 6em;
+    border-radius: 30%;
+
+
+    background-color: rgb(163, 21, 21);
+    color: rgb(209, 225, 240);
+    margin-bottom: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: 0.2s;
-    }
-    
-    
+}
+
 
 
 
@@ -82,7 +85,8 @@ body {
     border-radius: 30%;
     background-color: rgb(71, 34, 129);
     color: rgb(209, 225, 240);
-    
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,31 +95,33 @@ body {
 }
 
 
-#volume {
-    height: 1.5em;
-    width: 1.5em;
-    border-radius: 30%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 5em;
-    margin: 0.5em 0;
-    color: rgb(209, 225, 240);
-}
     
 
 
 
-.oculto{
+
+
+
+.oculto {
     visibility: hidden;
 }
-    
-    
 
-.channels{
-    display:flex;
+.channels {
+    
+    display: flex;
     justify-content: space-between;
     width: 5em;
     margin: 0.5em 0;
-    
 }
+
+
+
+.off {
+    background-color: brown;
+
+}
+
+.on {
+    background-color: blue;
+}
+
