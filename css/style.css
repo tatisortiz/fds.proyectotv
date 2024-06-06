@@ -2,7 +2,7 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 0;
-    background: black;
+    background: rgb(135, 132, 132);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .stv {
-    background-color: aqua;
+    background-color: rgb(112, 118, 118);
 }
 
 #control {
@@ -121,76 +121,50 @@ background-color: chartreuse;
     margin: 0.5em 0;
 }
 
+.channel0{
+    background-image: url("../img/logo.webp");
+    background-size: 100% 100%;
+   
+}
 
 
 .channel1{
     background-image: url("../img/betty.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
+    background-size: 100% 100%;
 }
 
 .channel2{
     background-image: url("../img/antena\ 3.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
+    background-size: 100% 100%;
 }
 .channel3{
     background-image: url("../img/bob\ esponja.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-size: 100% 100%;
+}
+.channel4{
+    background-image: url("../img/corazones.gif");
+    background-size: 100% 100%;
+}
+.channel5{
+    background-image: url("../img/pocoyo.gif");
+    background-size: 100% 100%;
+}
+.channel6{
+    background-image: url("../img/rata.gif");
+    background-size: 100% 100%;
 
 }
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+.channel7{
+    background-image: url("../img/simsonps.gif");
+    background-size: 100% 100%;
 
 }
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
+.channel8{
+    background-image: url("../img/teletuvis.gif");
+    background-size: 100% 100%;
 }
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
+.channel9{
+    background-image: url("../img/tom\ and\ jerry.gif");
+    background-size: 100% 100%;
 }
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
 
-}
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
-}
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
-}
-.channel0{
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-
-}
